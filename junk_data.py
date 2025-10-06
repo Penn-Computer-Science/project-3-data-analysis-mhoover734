@@ -1,17 +1,20 @@
 import random
 import pandas as pd
-lists = {
+hk_lists = {
     "played HK": [True, True, True, True],
-    "played SS": [False, True, False, True],
     "HK hours": [5, 300, 50, 45],
-    "SS hours": [None, 60, None, 70],
     "HK rating": [6, 10, 10, 9],
-    "SS rating": [None, 10, None, 7],
     "HK sleep": ["Increased", "Stayed Same", "Increased", "Stayed Same"],
-    "SS sleep": [None, "Stayed Same", None, "Decreased"]
 }
 
-for i in range(21):
+ss_lists = {
+    "played SS": [True, True],
+    "SS hours": [60, 70],
+    "SS rating": [10, 7],
+    "SS sleep": ["Stayed Same", "Decreased"]
+}
+
+for i in range(40):
     while True:
         played_hk = random.choice([True, False])
         played_ss = random.choice([True, False])
@@ -23,25 +26,25 @@ for i in range(21):
     ss_hours = random.randint(5,300)
     ss_rating = random.randint(3,10)
     ss_sleep = random.choice(["Greatly Decreased", "Decreased", "Stayed Same", "Increased", "Greatly Increased"])
-    if not(played_hk):
-        hk_hours = None
-        hk_rating = None
-        hk_sleep = None
-    if not(played_ss):
-        ss_hours = None
-        ss_rating = None
-        ss_sleep = None
-    lists["played HK"].append(played_hk)
-    lists["played SS"].append(played_ss)
-    lists["HK hours"].append(hk_hours)
-    lists["SS hours"].append(ss_hours)
-    lists["HK rating"].append(hk_rating)
-    lists["SS rating"].append(ss_rating)
-    lists["HK sleep"].append(hk_sleep)
-    lists["SS sleep"].append(ss_sleep)
+    if played_hk and len(hk_lists["played HK"]) < 25:
+        hk_lists["played HK"].append(played_hk)
+        hk_lists["HK hours"].append(hk_hours)
+        hk_lists["HK rating"].append(hk_rating)
+        hk_lists["HK sleep"].append(hk_sleep)
+    if played_ss and len(ss_lists["played SS"]) < 25:
+        ss_lists["played SS"].append(played_ss)
+        ss_lists["SS hours"].append(ss_hours)
+        ss_lists["SS rating"].append(ss_rating)
+        ss_lists["SS sleep"].append(ss_sleep)
 
-team_cherry_data = pd.DataFrame(lists)
+hk_data = pd.DataFrame(hk_lists)
 print()
-print(team_cherry_data)
+print(hk_data)
 
-team_cherry_data.to_csv('team_cherry_data.csv', index=False)
+hk_data.to_csv('hk_data.csv', index=False)
+
+ss_data = pd.DataFrame(ss_lists)
+print()
+print(ss_data)
+
+ss_data.to_csv('ss_data.csv', index=False)
