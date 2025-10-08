@@ -49,7 +49,7 @@ print(f"\n{lineBreak}\n\nTail of the SS Dataframe\n")
 print(ss_data.tail())
 
 # Summary of the SS dataframe
-print(f"\n{lineBreak}\n\nSummary of the SS Dataframe\n")
+print(f"\n{lineBreak}\n\nSummary of the SS Dataframe\n")             # played SS, SS hours, SS rating, SS sleep
 print(ss_data.info())
 
 # Statistical Analysis of the SS dataframe
@@ -63,3 +63,20 @@ print(ss_data.sort_values(by="SS hours", ascending=False).head(5))
 # Top datasets by SS sleep
 print(f"\n{lineBreak}\n\nTop sleep quality in SS Dataframe\n")
 print(ss_data[ss_data["SS sleep"]=='Greatly Increased'])
+print("\n\n\n\n")
+print(ss_data.groupby('SS rating')['SS hours'])
+
+'''
+ss_data.groupby('SS rating')['SS hours'].mean().plot(kind='scatter')
+plt.title('Hours for Each Rating')
+plt.xlabel('Rating')
+plt.ylabel('Average Hours')
+plt.show()
+'''
+
+
+df['SS hours'].plot(kind='hist', bins = 10, edgecolor='Black')
+plt.title('Hours for Each Rating')
+plt.xlabel('Rating')
+plt.ylabel('Average Hours')
+plt.show()

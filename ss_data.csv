@@ -1,26 +1,101 @@
-played SS,SS hours,SS rating,SS sleep
-True,60,10,Stayed Same
-True,70,7,Decreased
-True,168,6,Greatly Increased
-True,288,5,Stayed Same
-True,22,6,Decreased
-True,121,5,Increased
-True,249,3,Greatly Increased
-True,292,4,Increased
-True,108,4,Stayed Same
-True,277,6,Greatly Decreased
-True,247,4,Greatly Decreased
-True,129,7,Increased
-True,262,3,Decreased
-True,106,6,Greatly Decreased
-True,178,9,Stayed Same
-True,108,7,Greatly Increased
-True,134,5,Increased
-True,181,3,Decreased
-True,171,7,Decreased
-True,44,5,Stayed Same
-True,22,4,Decreased
-True,240,8,Greatly Decreased
-True,253,10,Greatly Decreased
-True,222,8,Greatly Increased
-True,60,5,Greatly Increased
+played SS,SS hours,SS rating,SS sleep,SS sleep #
+True,60,10,Stayed Same,0
+True,70,7,Decreased,-1
+True,137,5,Greatly Decreased,-2
+True,111,5,Increased,1
+True,228,3,Greatly Decreased,-2
+True,140,9,Greatly Increased,2
+True,32,5,Stayed Same,0
+True,186,9,Stayed Same,0
+True,268,8,Increased,1
+True,210,6,Decreased,-1
+True,113,6,Stayed Same,0
+True,30,3,Greatly Increased,2
+True,275,6,Decreased,-1
+True,271,6,Stayed Same,0
+True,118,9,Stayed Same,0
+True,270,8,Decreased,-1
+True,13,5,Greatly Decreased,-2
+True,94,9,Greatly Decreased,-2
+True,271,9,Stayed Same,0
+True,259,8,Stayed Same,0
+True,98,7,Stayed Same,0
+True,247,5,Increased,1
+True,210,4,Stayed Same,0
+True,95,6,Stayed Same,0
+True,279,7,Greatly Increased,2
+True,160,10,Decreased,-1
+True,80,7,Decreased,-1
+True,129,5,Stayed Same,0
+True,229,6,Greatly Decreased,-2
+True,211,9,Decreased,-1
+True,254,8,Greatly Increased,2
+True,246,3,Decreased,-1
+True,262,6,Stayed Same,0
+True,10,7,Decreased,-1
+True,23,9,Increased,1
+True,199,10,Increased,1
+True,68,10,Greatly Decreased,-2
+True,186,4,Increased,1
+True,179,5,Decreased,-1
+True,157,8,Greatly Increased,2
+True,232,7,Stayed Same,0
+True,265,9,Stayed Same,0
+True,17,3,Stayed Same,0
+True,87,9,Greatly Increased,2
+True,39,5,Decreased,-1
+True,232,4,Stayed Same,0
+True,261,3,Stayed Same,0
+True,116,9,Greatly Increased,2
+True,25,4,Stayed Same,0
+True,220,8,Decreased,-1
+True,45,6,Decreased,-1
+True,89,8,Greatly Increased,2
+True,162,9,Increased,1
+True,298,3,Increased,1
+True,203,10,Increased,1
+True,65,4,Greatly Decreased,-2
+True,53,5,Greatly Increased,2
+True,98,4,Greatly Decreased,-2
+True,65,4,Stayed Same,0
+True,87,7,Greatly Decreased,-2
+True,178,5,Greatly Decreased,-2
+True,32,3,Decreased,-1
+True,219,9,Decreased,-1
+True,84,3,Greatly Decreased,-2
+True,86,10,Stayed Same,0
+True,240,5,Greatly Decreased,-2
+True,119,3,Increased,1
+True,33,9,Greatly Increased,2
+True,199,9,Greatly Increased,2
+True,8,7,Greatly Decreased,-2
+True,167,7,Increased,1
+True,261,3,Increased,1
+True,71,8,Increased,1
+True,61,3,Increased,1
+True,223,6,Increased,1
+True,243,9,Stayed Same,0
+True,83,6,Greatly Decreased,-2
+True,102,10,Decreased,-1
+True,267,5,Decreased,-1
+True,285,4,Stayed Same,0
+True,65,10,Decreased,-1
+True,242,7,Decreased,-1
+True,60,10,Greatly Increased,2
+True,32,5,Greatly Decreased,-2
+True,294,6,Increased,1
+True,90,7,Increased,1
+True,103,4,Decreased,-1
+True,61,5,Greatly Increased,2
+True,81,6,Greatly Increased,2
+True,63,3,Increased,1
+True,191,7,Stayed Same,0
+True,14,5,Decreased,-1
+True,115,10,Increased,1
+True,261,3,Stayed Same,0
+True,36,3,Greatly Increased,2
+True,15,3,Increased,1
+True,122,5,Increased,1
+True,237,4,Increased,1
+True,79,3,Greatly Decreased,-2
+True,195,8,Greatly Increased,2
