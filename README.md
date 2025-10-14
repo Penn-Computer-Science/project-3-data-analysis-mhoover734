@@ -17,6 +17,8 @@
    - If you can’t collect real data, generate fake but plausible data in Python. (For example, random integers for age, random choices for “favorite snack,” etc.)
  - Load Data with Pandas
     - Import your dataset into a pandas DataFrame.
+
+                        Part B
   - Clean the data:
      - Handle missing values.
      - Convert data types (strings to categories, numbers to int/float).
@@ -26,6 +28,8 @@
         - Descriptive stats (mean, median, mode, counts).
         - GroupBy analysis (e.g., average hours of sleep by grade level).
         - Sorting/filtering for interesting insights.
+
+                        Part C
    - Visualize Your Data with Matplotlib:
       - Create at least 3 different charts:
          - One bar chart (categorical data).
