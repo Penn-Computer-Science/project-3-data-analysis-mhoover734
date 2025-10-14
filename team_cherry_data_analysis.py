@@ -42,7 +42,7 @@ for rating, group in hk_data.groupby('HK sleep #'):
 	plt.scatter([rating]*len(group['HK hours']), group['HK hours'], label=str(rating))
 plt.title('HK Hours for Sleep Change')
 plt.xlabel('Sleep Change')
-plt.ylabel('HK Rating')
+plt.ylabel('HK Hours')
 plt.show()
 
 # Pie chart of HK Ratings
@@ -96,7 +96,7 @@ for rating, group in ss_data.groupby('SS sleep #'):
 	plt.scatter([rating]*len(group['SS hours']), group['SS hours'], label=str(rating))
 plt.title('SS Hours for Sleep Change')
 plt.xlabel('Sleep Change')
-plt.ylabel('SS Rating')
+plt.ylabel('SS Hours')
 plt.show()
 
 # Pie chart of SS Ratings
