@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/cDHmkiPS)
 # TiCS25P3
 **Topics in CS 2025 Project 3 -  Survey Design and Data Analysis**
 
@@ -16,6 +17,8 @@
    - If you can’t collect real data, generate fake but plausible data in Python. (For example, random integers for age, random choices for “favorite snack,” etc.)
  - Load Data with Pandas
     - Import your dataset into a pandas DataFrame.
+
+                        Part B
   - Clean the data:
      - Handle missing values.
      - Convert data types (strings to categories, numbers to int/float).
@@ -25,6 +28,8 @@
         - Descriptive stats (mean, median, mode, counts).
         - GroupBy analysis (e.g., average hours of sleep by grade level).
         - Sorting/filtering for interesting insights.
+
+                        Part C
    - Visualize Your Data with Matplotlib:
       - Create at least 3 different charts:
          - One bar chart (categorical data).
